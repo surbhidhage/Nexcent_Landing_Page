@@ -1,0 +1,728 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+/**** Font link Inter ****/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+/********************Navbar section starts*********************/
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.navbar-title {
+    font-size: 27px;
+    font-weight: 650;
+}
+
+.navbar-menu {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.125rem;
+    list-style: none;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: #18191f;
+    font-size: 0.93rem;
+    font-weight: 550;
+    line-height: 1.5rem;
+}
+
+.navbar-link:hover {
+    color: #18191f;
+}
+
+.navbar-buttons {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.875rem;
+}
+
+.navbar-signup-button {
+    display: flex;
+    padding: 0.621rem 1.25rem;
+    align-items: center;
+    gap: 0.625rem;
+    background-color: #4caf4f;
+    border-radius: 0.4rem;
+    border: none;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.25rem;
+    font-size: 1rem;
+    color: #ffff;
+}
+
+.login-menu {
+    color: #4caf4f;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.login-menu:hover {
+    color: #4caf4f;
+}
+
+@media screen and (max-width: 1024px) {
+    .navbar-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1.7rem;
+    }
+}
+
+/************************Navbar section ends********************************/
+
+.banner-1-content .text-1 {
+    font-size: 2.98rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3.3rem;
+    color: #4d4d4d;
+}
+
+.banner-1-content span {
+    color: #4caf4f;
+}
+
+.banner-1-content .text-2 {
+    color: #717171;
+    font-size: 0.7;
+    font-weight: 45 0;
+    line-height: 1.04413rem;
+}
+
+.Register-btn {
+    background-color: #4caf4f;
+    width: 120px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.8px solid #4caf4f;
+    color: #ffff;
+    font-size: 15px;
+}
+
+.banner-1-img img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 60%;
+    height: auto;
+    object-fit: cover;
+    align-items: end;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+    .banner-1-img img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        margin-left: 50px;
+    }
+}
+
+/***************************Client section starts**********************/
+.client-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 0rem 9rem;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.client-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.client-title {
+    color: #4d4d4d;
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 2.75rem;
+
+}
+
+.client-text {
+    color: #717171;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.client-logo {
+    display: flex;
+    height: 6.125rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:1024px) {
+    .client-logo {
+        display: flex;
+        height: 6.125rem;
+        align-items: center;
+        flex-wrap: wrap
+    }
+}
+
+/*******************************Client section ends*************************************/
+
+/***********************Community section starts****************************/
+.community-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.community-title {
+    width: 33.875rem;
+    color: #4D4D4D;
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 2.75rem;
+}
+
+.community-text {
+    text-align: center;
+    color: #717171;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 0.2rem;
+}
+
+.community-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 9rem;
+    gap: 4rem;
+}
+
+.box {
+    display: flex;
+    width: 18.7875rem;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    box-shadow: rgba(171, 190, 209, 0.2) 0px 2px 4px 0px;
+    padding: 1.5rem 2rem;
+    gap: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #ffff;
+}
+
+.box-title {
+    color: #4d4d4d;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 2.25rem;
+}
+
+.box-text {
+    color: #717171;
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    margin-bottom: 0rem !important;
+}
+
+@media screen and (max-width:1024px) {
+    .community-title {
+        width: 100%;
+    }
+
+    .community-box {
+        display: inline-grid;
+    }
+}
+
+/***************************Community section ends*************************/
+
+/******************************Banner-2 section starts********************************/
+.banner-title {
+    width: 33.875rem;
+    color: #4D4D4D;
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 2.75rem;
+    margin-left: -100px;
+}
+
+.banner-2-img {
+    margin-left: 70px;
+}
+
+.banner-details {
+    margin-left: -100px;
+}
+
+.learnmore-btn {
+    background-color: #4caf4f;
+    width: 120px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.8px solid #4caf4f;
+    color: #ffff;
+    font-size: 15px;
+    margin-left: -100px;
+}
+
+@media screen and (max-width:1024px) {
+    .banner-title {
+        width: 100%;
+        margin: auto;
+    }
+
+    .banner-details {
+        margin: auto;
+    }
+
+    .learnmore-btn {
+        margin: auto;
+
+    }
+}
+
+/******************Banner-2 section ends*************************/
+
+/******************Achievement section starts***************/
+.achievements-section {
+    height: 40vh;
+    margin-top: 65px;
+}
+
+.section-content {
+    display: flex;
+    width: 25.75rem;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section-title {
+    margin-top: 70px;
+    color: #4d4d4d;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.75rem;
+}
+
+.section-title span {
+    color: #4caf4f;
+}
+
+.section-text {
+    color: #18191F;
+    font-size: 1rem;
+    font-weight: 450;
+    line-height: 1.2rem;
+}
+
+@media screen and (max-width:1024px) {
+    .achievements-section {
+        width: 100%;
+        height: 100%;
+        margin-top: 85px;
+    }
+
+    .section-title {
+        margin: auto;
+    }
+
+}
+
+.counts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.row-1 {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.sub-row-1 {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.details-head {
+    color: #4D4D4D;
+    font-size: 1.6rem;
+    font-weight: 800;
+    line-height: 0rem;
+    width: 11.9375rem;
+}
+
+.details-description {
+    color: #717171;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.1rem;
+    width: 11.9375rem;
+}
+
+.sub-row-2 {
+    display: flex;
+    align-items: center;
+    gap: 1rem
+}
+
+.row-2 {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.booking-img {
+    margin-top: 50px;
+}
+
+/******************Achievement section ends***************/
+
+/************Banner section-3 starts*******************/
+.banner-3-img img {
+    height: 62vh;
+}
+
+.banner-3-content {
+    margin-top: 100px;
+}
+
+@media screen and (max-width:1024px) {
+    .banner-3-img img {
+        margin: auto;
+        height: 100%;
+    }
+
+    .banner-3-content {
+        margin: auto;
+    }
+}
+
+/**************Banner section-3 ends*******************/
+/**************Review section starts*******************/
+.review-section {
+    width: 100%;
+    height: 55vh;
+}
+
+.review-img img {
+    height: 50vh;
+}
+
+.review-text {
+    color: #717171;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+    max-width: 700px;
+}
+
+.review-content {
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+.mid-text {
+    color: #4CAF4F;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.72rem;
+}
+
+.mid-text-description {
+    color: #89939E;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2rem;
+}
+
+.review-logos {
+    display: flex;
+    align-items: center;
+    gap: 2.025rem;
+    flex-wrap: wrap;
+}
+
+.meet-text {
+    color: var(--brand-primary, #4CAF4F);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:1024px) {
+    .review-section {
+        height: auto;
+    }
+
+    .review-content {
+        margin: auto;
+    }
+
+    .review-img img {
+        height: auto;
+    }
+}
+
+/***************Review section ends*******************/
+
+/*************Cards section starts***************/
+.card-content p {
+    color: #4D4D4D;
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+.card-content h2 {
+    color: #4D4D4D;
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+.card-content p {
+    color: #717171;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.card-layout {
+    display: flex;
+    padding: 0rem 9rem;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+}
+
+.card-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.innerbox {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 0.5rem;
+    background: #f5f7fa;
+    z-index: 2;
+    transform: translate(0rem, -6.8rem);
+    box-shadow: 0px 8px 16px 0px rgb(171 190 209 / 40%);
+}
+
+.innerbox-text {
+    color: #717171;
+    text-align: center;
+    font-size: 1.15rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.55rem;
+    width: 17.8125rem;
+}
+
+.card-btn {
+    display: flex;
+    padding: 0.1rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.innerbox-btn {
+    color: #4CAF4F;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 0.1rem;
+
+}
+
+@media screen and (max-width:1024px) {
+    .card-layout {
+        gap: 0rem;
+        display: inline;
+    }
+
+}
+
+/*************Cards section ends***************/
+/*************Demo section starts**************/
+.demo-bg {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.demo-content p {
+    color: #263238;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 3.9rem;
+    max-width: 700px;
+}
+
+.demo-button {
+    background-color: #4caf4f;
+    padding: 6px 15px;
+    border-radius: 5px;
+    border: 0.8px solid #4caf4f;
+    color: #ffff;
+    font-size: 15px;
+    margin-left: 270px;
+    align-items: center;
+}
+@media screen and (max-width:1024px) {
+    .demo-bg {
+        height: auto;
+        margin:auto;
+    }
+    .demo-button {
+        margin-left: 180px;
+    }
+}
+/*************Demo section ends***************/
+
+/*************Footer section starts***************/
+.footer-bg{
+    width: 100%;
+    height: 45vh;
+}
+.company-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5rem;
+}
+.logo-footer {
+    display: flex;
+    align-items: center;
+    gap: 0.61819rem;
+}
+.copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+.copyright span {
+    color:#F5F7FA;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+}
+.social-links {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #f5f7fa;
+}
+.head-column {
+    color:  #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+} 
+.list-items p{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 0.875rem;
+}
+.email-box {
+    position: relative;
+    display: flex;
+    flex-shrink: 0;
+}
+.email-input {
+    width: 15.9375rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    opacity: 0.2;
+    background: var(--default-white, #FFF);
+    border: none;
+}
+.email-box img {
+    position: absolute;
+    top: 0.6rem;
+    right: 0.8rem;
+}
+@media screen and (max-width:1024px) {
+    .footer-bg{
+        width: 100%;
+        height: auto;
+    }
+}
+/*************Footer section ends***************/
